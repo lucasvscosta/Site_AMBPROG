@@ -1,0 +1,169 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px; 
+}
+
+#cabecalho {
+    box-shadow: 0px 11px 10px 1px rgba(0,0,0,.1);
+    font-family: 'Oxygen', sans-serif;
+}
+.carousel-inner {
+    box-shadow: 0px 11px 10px 1px rgba(0,0,0,.1);
+}
+
+.carousel-inner  img {
+    width: 100%;
+    height: 480px;
+  }
+
+.content iframe {
+    
+    width: 100%;
+    border: none;
+    margin-top: -40px;
+}
+
+.curriculo .thumbnail {
+    margin: 25px 0px 0px 25px;
+    width: 100%;
+    align-content: center;
+    position: relative;   
+}
+
+#curriculo {
+    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-right: 0px;
+    padding-top: 5px;
+    background-color: rgba(205,205,205, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,.1);
+}
+
+hr{
+  border-color:#aaa;
+  box-sizing:border-box;
+  width:100%;  
+}
+
+.caption a {
+    font-size: 13px;
+}
+
+.curriculo img {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 60%; 
+}
+
+.curriculo  .caption {
+    padding: 20px 0px 0px 50px; 
+    text-align: auto;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.marketing {
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.marketing .col-lg-3 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    position: relative;  
+    white-space: normal;
+}
+
+.marketing .col-lg-3 p{
+    
+    text-overflow: ellipsis;
+    overflow: visible;
+}
+
+.container#cont {
+    width: 100%;
+    position: relative;
+    margin-bottom: 35px;
+    padding: 0px 20px 0px 20px;   
+}
+
+#contato {
+    width: 100%;
+    background-color: rgba(205,205,205,.5);
+    padding: 15px 15px 15px 15px;
+}
+
+#mensagem {
+    resize: none;
+}
+
+#maps {
+    position: relative;
+    padding: 15px 15px 15px 15px;
+    float: right;
+}
+
+.footer {
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; 
+    line-height: 60px;
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+}
+
+#assinatura {
+    text-align: left;
+    color: #C0C0C0;
+    text-shadow: 1px 1px 1px 1px rgba(0,0,0,.2);
+    font-family: 'Oxygen', sans-serif;
+}
+
+.rede {
+    width: 55px;
+    height: 55px;
+    float: right;
+    margin: 0px 10px 10px;
+    transition: all 0.4s ease-out;
+    border-radius: 50%;
+    position: relative;
+}
+
+.rede:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
+}
+
+.rede#facebook {
+    background-color: #2372a3;
+    padding-left:  12px;
+}
+
+.rede#twitter {
+    background-color: #0084b4;
+    padding-left:  12px;
+}
+
+

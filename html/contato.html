@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title> </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../font-awesome/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+       
+                         
+        <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="../js/popper.min.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/contato.js"></script>
+
+        
+    </head>
+    
+    <header id="cabecalho">
+       
+        <nav role="navigation" class="navbar navbar-dark bg-dark">   
+            <a href="#" class="navbar-brand">Contato</a>
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                    
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quem_somos.html">Quem somos</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+       
+    <body>
+  
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            </ol>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="third-slide" src="../imagens/slide3.jpg" alt="only slide">
+                    <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h1>Contato</h1>
+                            <p>Envie suas dúvidas, sugestões ou reclamações</p><br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </div>
+        
+        <div class="container" id="cont">
+            <div class="row">
+                <div class="col-lg-4 col-sm-10">
+                    <fieldset id="contato">
+                        <legend>Entre em contato</legend>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Nome:</label>
+                                <input type="text" class="form-control" id="nome">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem:</label> 
+                                <textarea class="form-control" rows="5" id="mensagem"></textarea>
+                            </div>
+                            
+                            <p>
+                                <button class="btn btn-success" id="btnEnviar">Enviar</button>
+                                <button class="btn btn-warning" id="btnLimpar">Limpar</button><br />
+                            </p>
+                        </form>
+                    </fieldset>
+                </div>
+        
+                <!-------CHAMADA GOOGLE MAPS-------->
+                <div class="row">
+                    <div class="col-md-12" >
+                        <div id="maps">
+                            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:EjFSdWEgVGFxdWFyaSwgNTQ2IC0gTW9vY2EsIFPDo28gUGF1bG8gLSBTUCwgQnJhc2ls&key=AIzaSyAAC-Zo9pSLn3ihTHOffR7a4qLslHPtSPU" allowfullscreen></iframe>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div>
+    
+    </body>
+    
+
+     <footer class="footer">            
+        <div class="container">
+            <span id="assinatura">Copyright&copy; 2017 - by Lucas Vinicius</span>
+            <p class="float-right"><a href="#">Voltar ao topo</a></p>
+            
+            <div class="rede" id="facebook">
+                <a href="https://www.facebook.com/groups/1158213160861043/?fref=nf" >
+                    <img src="../imagens/facebook.png"/>
+                </a>
+            </div>      
+        </div>
+    </footer>
+</html>
